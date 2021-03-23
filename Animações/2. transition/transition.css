@@ -1,0 +1,49 @@
+body {
+    margin: 30px;
+}
+
+.box {
+    background-color: #157bad;
+    height: 300px;
+    width: 300px;
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+    /*transition-delay: 1s;*/
+    transition-timing-function: cubic-bezier(.15, .89, .85, .26);
+    /*
+    ---Mexer com prepriedades em CSS---
+    trasition-property: background-color;
+    
+    ---Duração que vai acontecer---
+    transition-duration: 2s; 
+    
+    ---Usando mais propriedades---
+    border radius
+    
+    transition-property: background-color,     border-radius; 
+    transition-duration: 2s, 1.5s;
+    
+    ---Dá um atraso--
+    transition-delay: 1s;
+    
+    ---Dá uma suavizada---
+    transition-timing-fuction: ease-in;
+    
+    transition-timing-fuction: ease-out;
+    
+    transition-timing-fuction: ease-in-out;
+     
+   ---Passar um série de pontos---
+    cubic-bezier();
+    
+    transition-time-function: cubic-           bezier(.15,.89,.85,.26);
+    */
+}
+
+
+/*Hover para quando passar o cursor aparecer*/
+
+.box:hover {
+    background-color: #ec5840;
+    border-radius: 50%;
+}
