@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    height: 100vh; 
+    place-items: center;
+  }
+  
+  .box{
+    outline: 5px solid red; 
+  }
+  
+  img{
+    transform: translateX(100px) scale(1.5)     rotate(-15deg); 
+    /*começa com transform: */
+    
+    /*
+    translateX(100px);
+    margin-left: 300px;
+    translateY(100px);
+    translate(100px, 100y); podendo usar       positivo ou negativo 
+    
+    --Escala--: 
+    scaleX(2) ou scaleX(1.25) 
+    scaleY(2)
+    --Aumenta em ambos--: 
+    scale(2) aumenta
+    scale(0.5) diminui
+    
+    --Rotaciona o elemento com graus--: 
+    rotate(45deg) negativo ou positivo
+    rotate(0.5turn) 180 grau;  
+    
+    --Inclinada no objeto--: 
+    skew(20deg); ou skew(-20deg); 
+    
+    --Podem ser juntos--
+    transform: translateX(100px) scale(1.5)     rotate(-15deg);
+    ;*/
