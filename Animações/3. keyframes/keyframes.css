@@ -1,0 +1,27 @@
+/*animações usar somente se possivel opacity e transform*/
+
+
+.c-plane{
+    animation: fly 1s;
+    background: url() no repeat center;
+    background-size: contain;
+    height: rem(145);
+    position: absolute;
+    top: 40%;
+    width: 40%;
+}
+
+/*fly só o nome escolhido para animações*/
+@keyframes fly{
+    0% { /*from ou 0%*/
+        transform: translateX(0, 0);
+    }
+
+    50% {
+        transform: translateX(200%, -50px);
+    }
+
+    100% /*to ou 100%*/{
+        transform: translateX(calc(100vw - 200px));
+    }
+}
